@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải pháp Quản lý Giao thông</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>Giải pháp Quản lý Giao thông Thông minh</h1>
+        <nav>
+            <ul>
+                <li><a href="#traffic-lights">Điều khiển Đèn giao thông</a></li>
+                <li><a href="#traffic-monitor">Giám sát Lưu lượng</a></li>
+                <li><a href="#data-analysis">Phân tích Dữ liệu</a></li>
+                <li><a href="#settings">Cài đặt</a></li>
+                <li><a href="#help">Trợ giúp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="traffic-lights">
+            <h2>Điều khiển Đèn giao thông</h2>
+            <div class="controls">
+                <button onclick="changeLight('red')">Đèn Đỏ</button>
+                <button onclick="changeLight('yellow')">Đèn Vàng</button>
+                <button onclick="changeLight('green')">Đèn Xanh</button>
+            </div>
+            <div id="light-status">Trạng thái: <span id="current-light">Không xác định</span></div>
+        </section>
+
+        <section id="traffic-monitor">
+            <h2>Giám sát Lưu lượng</h2>
+            <div id="traffic-data">Số liệu lưu lượng: 0</div>
+        </section>
+
+        <section id="data-analysis">
+            <h2>Phân tích Dữ liệu</h2>
+            <div id="analysis-report">Báo cáo lưu lượng sẽ hiển thị ở đây.</div>
+        </section>
+
+        <section id="settings">
+            <h2>Cài đặt</h2>
+            <p>Cấu hình hệ thống và các thông số liên quan đến điều khiển đèn giao thông.</p>
+        </section>
+
+        <section id="help">
+            <h2>Trợ giúp</h2>
+            <p>Hướng dẫn sử dụng hệ thống và thông tin liên hệ hỗ trợ.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Giải pháp Quản lý Giao thông Thông minh</p>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
